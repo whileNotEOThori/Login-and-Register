@@ -86,21 +86,67 @@ input:not(:placeholder-shown) ~ label {
   text-decoration: underline;
 }
 
-.button{
-    font-size: 1.1rem;
-    padding: 8px 0;
-    border-radius: 5px;
-    outline: none;
-    border: none;
-    width: 100%;
-    background: rgb(125,125,235);
-    color: white;;
-    cursor: pointer;
-    transition: 0.9s;
+.button {
+  font-size: 1.1rem;
+  padding: 8px 0;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+  background: rgb(125, 125, 235);
+  color: white;
+  cursor: pointer;
+  transition: 0.9s;
 }
 
-.button:hover{
-    background: #07001f;
-
+.button:hover {
+  background: #07001f;
 }
 
+.or {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.icons {
+  text-align: center;
+}
+
+.icons i {
+  color: rgb(125, 125, 235);
+  padding: 0.8rem 1.5rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  border: 2px solid #dfe9f5;
+  margin: 0 15px;
+  transition: 1s;
+}
+
+.icons i:hover {
+  background: #07001f;
+  font-size: 1.6rem;
+  border: 2px solid rgb(125, 125, 235);
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 4rem;
+  margin-top: 0.9rem;
+  font-weight: bold;
+}
+
+button {
+  color: rgb(125, 125, 235);
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+button:hover {
+  text-decoration: underline;
+  color: blue;
+}
